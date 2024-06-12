@@ -1,0 +1,119 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+
+}
+.image-container{
+    background-image:url("/КиН/assets/поле.png") ;
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+    display: grid;
+    grid-row: 60px, 3fr;
+    grid-template-areas: 'div div div';
+    
+}
+
+.krestik, .nolik{
+    background-image: url('/КиН/assets/icons8-крестик-78.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.nolik{
+    background-image: url("/КиН/assets/icons8-круг-64.png");
+}
+
+span{
+    position: fixed;
+    top: calc(50% - 140px);
+    left: calc(50% - 170px);
+    width: 340px;
+    height: 0px;
+    border: 5px solid #000;
+    
+    display: none;
+}
+
+span:nth-child(2){
+    position: fixed;
+    top: calc(50% - (-3px));
+    left: calc(50% - 170px);
+    width: 340px;
+    height: 0px;
+    border: 5px solid #000;
+    
+    /* display: none; */
+
+} 
+
+span:nth-child(3){
+    position: fixed;
+    top: calc(50% - (-170px));
+    left: calc(50% - 170px);
+    width: 340px;
+    height: 0px;
+    border: 5px solid #000;
+    
+    /* display: none; */
+
+} 
+
+span:nth-child(4){
+    position: fixed;
+    top: calc(50% - (170px));
+    left: calc(50% - 170px);
+    width: 0px;
+    height: 340px;
+    border: 5px solid #000;
+    
+    /* display: none; */
+
+} 
+
+span:nth-child(5){
+    position: fixed;
+    top: calc(50% - 170px);
+    left: calc(50% - 0px);
+    width: 0px;
+    height: 340px;
+    border: 5px solid #000;
+    
+    /* display: none; */
+
+} 
+span:nth-child(6){
+    position: fixed;
+    top: calc(50% - 170px);
+    left: calc(50% - (-170px));
+    width: 0px;
+    height: 340px;
+    border: 5px solid #000;
+    
+    /* display: none; */
+
+} 
+span:nth-child(7){
+    position: fixed;
+    top: calc(50% - 130px);
+    left: calc(50% - (-10px));
+    width: 0px;
+    height: 440px;
+    border: 5px solid #000;
+    transform: rotate(135deg);
+    /* display: none; */
+
+} 
+span:nth-child(8){
+    position: fixed;
+    top: calc(50% - 170px);
+    left: calc(50% - 0px);
+    width: 0px;
+    height: 340px;
+    border: 5px solid #000;
+    transform: rotate(45deg);
+    /* display: none; */
+
+} 
