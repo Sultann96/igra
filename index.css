@@ -103,7 +103,6 @@ span:nth-child(7){
     height: 440px;
     border: 5px solid #000;
     transform: rotate(135deg);
-    /* display: none; */
 
 } 
 span:nth-child(8){
