@@ -4,10 +4,13 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Браузерная игра крестики нолики))))</title>
-        <script src="./index.js" defer></script>
         <link rel="stylesheet" href="./index.css" />
+        <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+        <script>dayjs().format()</script>   
+        <script src="./index.js" defer></script>
     </head>
     <body>
+        <p id="timer">0</p>
         <span></span>
         <span></span>
         <span></span>
@@ -28,7 +31,7 @@
 
             в зависимости от победы меняешь эти стили (например если выигрыш 
             произошёл в середине, то меняешь width на 170px)
-         -->
+            -->
         <div class="image-container">
             <div class="0"></div>
             <div class="1"></div>
