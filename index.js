@@ -12,6 +12,7 @@ const line5 = document.querySelector("span:nth-child(5)");
 const line6 = document.querySelector("span:nth-child(6)");
 const line7 = document.querySelector("span:nth-child(7)");
 const line8 = document.querySelector("span:nth-child(8)");
+const newGame= document.querySelector("button")
 let started = false;
 let per = false;
 let sec = document.getElementById("timer");
@@ -121,5 +122,5 @@ function checkGame() {
 
     // конец игры
 }
-
+// newGame = window.location.reload("button");
 elem.addEventListener("click", func);

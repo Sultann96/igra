@@ -123,3 +123,10 @@ span:nth-child(8){
     top: 10px;
     font-size: 80px;
 }
+
+button {
+    display: flex;
+    position: fixed;
+    right: 400px;
+    font-size: 40px;
+}
